@@ -1,0 +1,3 @@
+This repository demonstrates a common issue in React's `useEffect` hook: improper handling of the cleanup function. The `bug.js` file showcases the problematic code, where the cleanup function is not effectively managing resources when the component unmounts. This can lead to memory leaks or unexpected behavior.
+
+The solution, provided in `bugSolution.js`, addresses this by ensuring the cleanup function is correctly implemented to prevent resource leaks and improve the overall stability and performance of the component.
